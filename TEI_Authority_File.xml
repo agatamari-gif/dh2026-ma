@@ -49,7 +49,7 @@
          <person xml:id="testperson001">
 			<persName>Mari Agata</persName>
 			<affiliation>Keio University</affiliation>
-			<occupation>Professor</occupation?
+			<occupation>Professor</occupation>
 			<nationality>Japanese</nationality>
 			<note>DH2026 test</note>
          </person>
