@@ -147,10 +147,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727101856391",
+	"id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727102336712",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-07-27T01:18:56.391Z",
-	"dcterms:modified": "2026-07-27T01:23:36.712Z",
+	"dcterms:created": "2026-07-27T01:23:36.712Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/agatamari-gif",
 		"@type": [
@@ -161,7 +160,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727101856391#Target",
+		"@id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727102336712#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml",
@@ -175,7 +174,7 @@
 			"schema:softwareVersion": "4.3.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727101856391#Selector",
+			"@id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727102336712#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/ab[19]/persName[2]"
 		}
@@ -759,6 +758,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727122542395",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-07-27T03:25:42.395Z",
+	"dcterms:modified": "2026-07-27T03:25:42.395Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/agatamari-gif",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mari Agata"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727122542395#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727122542395#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/ab/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/refs/heads/main/TEI_Authority_File.xml#testperson001",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p xml:lang="en"> This encoded file was created by members of the Linked Editing
@@ -797,7 +875,7 @@
                   <rb>熟睡</rb>
                   <rt>うまい</rt>
                </ruby>
-               を破れり、我は力によりておこされし人の如く我にかへり</ab>
+               を破れり、<persName key="Mari Agata" ref="https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/refs/heads/main/TEI_Authority_File.xml#testperson001" type="real">我は</persName>力によりておこされし人の如く我にかへり</ab>
                
                
             <ab xml:id="lg02" n="四―六 ">たちなほりて休める目を動かし、わが在るところを知らんとて瞳を定めあたりを見れば</ab>
