@@ -150,7 +150,7 @@
 	"id": "https://raw.githubusercontent.com/agatamari-gif/dh2026-ma/main/inferno/inferno-ja.xml?person_annotation_20260727101856391",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-07-27T01:18:56.391Z",
-	"dcterms:modified": "2026-07-27T01:18:56.391Z",
+	"dcterms:modified": "2026-07-27T01:23:36.712Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/agatamari-gif",
 		"@type": [
@@ -181,7 +181,11 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person",
+			"http://id.lincsproject.ca/edit/modeIdentifiable"
+		],
 		"@id": "http://dbpedia.org/resource/Noah",
 		"dc:format": "text/plain"
 	},
@@ -191,7 +195,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -362,7 +367,7 @@
                   <rt>かうむ</rt>
                </ruby>
                りて來るを見たり</ab>              
-            <ab xml:id="lg19" n="五五―五十七">この者第一の父の魂、その子<persName>アベル</persName>の魂、<persName key="Noah" ref="http://dbpedia.org/resource/Noah">ノエ</persName>の魂、
+            <ab xml:id="lg19" n="五五―五十七">この者第一の父の魂、その子<persName>アベル</persName>の魂、<persName key="Noah" ref="http://dbpedia.org/resource/Noah" cert="high" type="identifiable">ノエ</persName>の魂、
                <ruby>
                   <rb>律法</rb>
                   <rt>おきて</rt>
